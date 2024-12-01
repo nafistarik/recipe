@@ -4,7 +4,7 @@ import recipes from "../data/recipes.json";
 
 export default function Latest() {
   return (
-    <section id="latest" className="mb-16 mt-[100px]">
+    <section className="mb-16 mt-[100px]">
       <h2 className="text-3xl font-bold mb-8">Latest Recipes</h2>
       <div className="grid md:grid-cols-4 gap-8">
         {recipes.sort((b,a)=> new Date(a.published_date) -  new Date(b.published_date)).slice(0,4).map((recipe) => {

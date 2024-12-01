@@ -82,36 +82,7 @@ export default function Recipes({ params }) {
               />
               <h3 className="font-semibold">{recipe.title}</h3>
             </div>
-            <div>
-              <Image
-                src={`/thumbs/${recipe.thumbnail}`}
-                width={100}
-                height={100}
-                alt="Recipe 2"
-                className="w-full h-60 object-cover rounded-lg mb-2"
-              />
-              <h3 className="font-semibold">{recipe.title}</h3>
-            </div>
-            <div>
-              <Image
-                src={`/thumbs/${recipe.thumbnail}`}
-                width={100}
-                height={100}
-                alt="Recipe 3"
-                className="w-full h-60 object-cover rounded-lg mb-2"
-              />
-              <h3 className="font-semibold">{recipe.title}</h3>
-            </div>
-            <div>
-              <Image
-                src={`/thumbs/${recipe.thumbnail}`}
-                width={100}
-                height={100}
-                alt="Recipe 4"
-                className="w-full h-60 object-cover rounded-lg mb-2"
-              />
-              <h3 className="font-semibold">{recipe.title}</h3>
-            </div>
+            
           </div>
         </section>
       </main>
